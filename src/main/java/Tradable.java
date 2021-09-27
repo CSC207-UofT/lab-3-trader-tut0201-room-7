@@ -1,3 +1,6 @@
 public interface Tradable {
-    int getPrice();
+    public int price = 0;
+
+    public int getPrice();
+
 }
